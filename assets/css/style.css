@@ -1,0 +1,33 @@
+.main-contant{
+	min-height: calc(100vh - 25vh)
+}
+.footer{
+	background-color: #343a40;
+}
+.footer ul.unstyle-list{
+	list-style: none;
+}
+.footer ul.unstyle-list a {
+text-decoration: none;
+color: #ffffff;
+transition: 0.8s;
+}
+.footer ul.unstyle-list a:hover{
+	margin: 5px;
+}
+.footer ul.social-icon a > i {
+	font-size: 20px;
+	padding: 7px;
+	color: #ffffff;
+	transition: 0.5s;
+}
+.footer ul.social-icon a i:hover{
+	font-size: 30px;
+}
+.footer p.footer-link> a{
+	color: white;
+	transition:0.8s;
+}
+.footer p.footer-link > a:hover {
+	font-size: 20px;
+}
