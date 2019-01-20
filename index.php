@@ -13,8 +13,8 @@
  </head>
  <body>
  	<div class="main-contant">
- 		<h1>Main contant</h1>
- 		<div>potfolio</div>
+ 		<h1>Port Folio</h1>
+ 		
  	</div>
   <?php require_once 'footer.php'; ?>
   </body>
@@ -36,12 +36,32 @@
  	// multiply=a*b*c;
  	// console.log(multiply)
  	// 
- 	var marks=56;
- 	if(marks>33){
- 		console.log("pass");
+ 	// var marks=56;
+ 	// if(marks>33){
+ 	// 	console.log("pass");
+  //    }
+  //    else
+  //    	console.log("failed");
+     var number=32;
+     if( number >=33 && number <=39){
+     	console.log("grade is E");
+     }
+     else if ( number >=40 && number <=49){
+     	console.log("Grade Is D");
+     } 
+     else if (number >=50 && number <=59){
+     	console.log("Grade Is C");
+     }
+     else if (number >=60 && number <=69){
+     	console.log("grade is B");
+     }
+     else if ( number >=70 && number<=79){
+     	console.log( "Grade Is A");
+     }
+     else if (number >=80 && number <=100){
+     	console.log( "Grade Is A+");
      }
      else
-     	console.log("failed");
-     
+     	console.log('invalid');
 
  </script>

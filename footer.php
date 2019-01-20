@@ -4,7 +4,7 @@
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <h5>
         <img src="assets/img/download.png" class="img-fluid" height="70" width="70">Company name</h5>
-      <p>this is my company</p>
+      <p>this is my companyswfgetg</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
            <h5>Quick Link</h5>
