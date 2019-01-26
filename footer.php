@@ -1,10 +1,9 @@
-
 <div class="container-fluid footer">
   <div class="row text-center text-sm-left text-md-left">
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <h5>
         <img src="assets/img/download.png" class="img-fluid" height="70" width="70">Company name</h5>
-      <p>this is my companyswfgetg</p>
+      <p>this is my company</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
            <h5>Quick Link</h5>
@@ -70,8 +69,10 @@
    </div>
 </div>
 
-
 <script type="text/javascript" src="assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+ </html>
