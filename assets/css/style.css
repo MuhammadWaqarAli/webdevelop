@@ -1,8 +1,9 @@
 .main-contant{
-	min-height: calc(100vh - 25vh)
+	min-height: calc(100vh - 300px)
 }
 .footer{
 	background-color: #343a40;
+	height: 250px; bottom: 0; position: fixed;
 }
 .footer ul.unstyle-list{
 	list-style: none;
