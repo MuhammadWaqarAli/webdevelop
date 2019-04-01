@@ -1,3 +1,6 @@
+<?php 
+error_reporting(0) ;
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,12 +35,28 @@
 				<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 				
 			</ul>
-				<ul class="navbar-nav mr-auto justify-content-end w-100">
+				<ul class="navbar-nav justify-content-end  w-50" style="margin-right: 10%!important">
+				<?php 
+					// session_start();
+					if( isset($_SESSION) && $_SESSION['user_id'] && $_SESSION['role_id'] == 2){ ?>
+						 <li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						         <?php echo $_SESSION['name']?>
+						        </a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						        	<a class="dropdown-item" href="#">Profile</a>
+						          	<a class="dropdown-item" href="logout.php">Logout</a>
+						        </div>
+						      </li>
+
+				<?php 	}else{
+				?>
 				<li class="nav-item">
-					<a href="#" class="nav-link" data-toggle="modal" data-target="#signUp" data-backdrop="static" keyboard="false"><i class="fas fa-user-plus"></i> SignUP</a>
+					<a href="signup.php" class="nav-link" ><i class="fas fa-user-plus"></i> SignUP</a>
 				</li>
 
-				<li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#signin" data-backdrop="static" keyboard="false"href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+				<li class="nav-item"><a class="nav-link"  href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+			<?php } ?>
 				
 			</ul>	
 				
@@ -104,7 +123,8 @@
 				<div class="modal-footer">
 					<button class="btn btn-dark btn1">Submit</button>
 					<button class="btn btn-dark btn1"data-dismiss="modal">Close</button>
-				</div>		
+				</div>	
+					
 			</div>
 		</div>
 	</div><br>
